@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <script src="typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>js project</title>
 </head>
 
@@ -156,13 +158,12 @@
         <img src="img/icon.png">
     </footer>
     <!--TYPING ANIMATION-->
-    <script>
-        let animation = new Typed('#ani', {
-            srtings: ["Front End Developer", "YouTuber", "Blogger", "Gamer"],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        })
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".services-box"), {
+            max: 25,
+            speed: 400
+        });
     </script>
 </body>
 
