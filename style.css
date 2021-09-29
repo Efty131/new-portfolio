@@ -223,3 +223,70 @@ progress{
     font-size: 20px;
     padding: 20px;
 }
+@media (max-width: 750px) {
+    header{
+        background: url("img/bg1.jpeg");
+        background-size: cover;
+    }
+    .navbar-links ul{
+        display: none;
+    }
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .text{
+        margin-left: 50px;
+    }
+    /* HEADER END */
+    /* ABOUT SECTION */
+    .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-left-col img{
+        width: 100%;
+        padding: 50px;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+    }
+    /*  SKILLS SECTION  */
+    .skills-left-col{
+        flex-basis: 100%;
+    }
+    .skills-right-col{
+        flex-basis: 100%;
+    }
+    progress{
+        width: 100%;
+    }
+    .progress-div{
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .progress-div p{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 40px;
+        text-align: justify;
+    }
+    /*  SERVICES SECTION  */
+    .services-box{
+        flex-basis: 100%;
+    }
+    .services-box img{
+        width: 60%;
+    }
+    /*  CONTACT SECTION */
+    .contact-left-col{
+        flex-basis: 100%;
+    }
+    .contact-right-col{
+        flex-basis: 100%;
+    }
+    /* FOOTER SECTION */
+    #footer{
+        
+    }
+}
