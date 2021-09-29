@@ -27,7 +27,7 @@ nav{
     letter-spacing: 5px;
 }
 .logo span{
-    color: rgb(196, 51, 51);
+    color: #3ccde7;
 }
 .navbar-links ul{
     display: flex;
@@ -43,9 +43,9 @@ nav{
     font-size: 20px;
 }
 .navbar-links li a:hover{
-    background: blue;
-    color: rgb(217, 238, 31);
+    background: #3ccde7;
     transition: 0.4s ease-in-out;
+    border-radius: 25px;
 }
 .text{
     color: white;
@@ -62,15 +62,20 @@ nav{
 }
 .c-btn{
     border: none;
+    font-size: 20px;
     outline: none;
     color:azure;
-    background: #e74c3c; 
-    padding: 10px;
+    background: #3ccde7; 
+    padding: 5px;
     margin-top: 20px;
     cursor: pointer;
     font-weight: bold;
 }
 /*  Header End */
+/*  TYPING ANIMATION JS */
+.typed-cursor{
+    color: #3ccde7;
+}
 /* Section one start */
 #about{
     padding: 100px 50px;
@@ -84,7 +89,7 @@ nav{
 }
 .section-info p{
     font-size: 25px;
-    color: #e73c3c;
+    color: #3ccde7;
 }
 .about-row{
     display: flex;
@@ -176,7 +181,7 @@ progress{
 /*  CONTACT SECTION START  */
 #contact{
     padding: 100px 50px;
-    background: linear-gradient(160deg,#e74c3c 45%,white 0%);
+    background: linear-gradient(160deg,#3ccde7 45%,white 0%);
 }
 .contact-row{
     display: flex;
@@ -211,7 +216,7 @@ progress{
 /* FOOTER START  */
 #footer{
     color: #fff;
-    background-color: #e74c3c;
+    background-color: #3ccde7;
     display: flex;
     justify-content: space-around;
     align-items: center;
