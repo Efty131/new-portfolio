@@ -83,6 +83,11 @@ nav {
     margin-top: 20px;
     cursor: pointer;
     font-weight: bold;
+    transition: .3s;
+}
+.c-btn:hover {
+    border-radius: 20px;
+    background-color: #0689a0;
 }
 
 .toggle-button {
