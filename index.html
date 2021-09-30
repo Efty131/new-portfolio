@@ -3,22 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:image" content="img/thumb.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
-    <meta name="description" content="">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--FAVICON-->
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <!--FAVICON-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="script.js"></script>
     <script src="typed.min.js"></script>
     <title>Efty</title>
@@ -26,7 +25,7 @@
 
 <body>
     <!--Header part-->
-    <header>
+    <header data-aos="fade">
         <nav class="navbar">
             <div class="logo">PORTFO<span>LIO</span></div>
             <a href="#" class="toggle-button">
@@ -49,7 +48,7 @@
         </div>
     </header>
     <!--ABOUT SECTION START-->
-    <section id="about">
+    <section id="about" data-aos="fade-up-right">
         <div class="section-info">
             <h1>About</h1>
             <p>Who I Am?</p>
@@ -69,7 +68,7 @@
         </div>
     </section>
     <!-- SKILLS SECTION START-->
-    <section id="skills">
+    <section id="skills" data-aos="zoom-in">
         <div class="section-info">
             <h1 style="color:#fff;">Skills</h1>
             <p>My Skills 👇👇👇</p>
@@ -114,7 +113,7 @@
         </div>
     </section>
     <!--SERVICES SECTION START-->
-    <section id="services">
+    <section id="services" data-aos="flip-right">
         <div class="section-info">
             <h1>Services</h1>
             <p>What We Provide</p>
@@ -141,7 +140,7 @@
         </div>
     </section>
     <!--CONTACT SECTION START-->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
         <div class="section-info">
             <h1 style="color: #fff;">Get In Touch</h1>
             <p style="color: black;">We Are Available</p>
@@ -204,6 +203,14 @@
         VanillaTilt.init(document.querySelectorAll(".services-box"), {
             max: 25,
             speed: 400
+        });
+    </script>
+    <!--SCROLL ANIMATION JS AOS LIBRARY-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
         });
     </script>
 </body>
