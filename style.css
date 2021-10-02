@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    transition: all 0.5s ease;
 }
 
 header {
@@ -85,6 +85,7 @@ nav {
     font-weight: bold;
     transition: .3s;
 }
+
 .c-btn:hover {
     border-radius: 20px;
     background-color: #0689a0;
@@ -104,6 +105,20 @@ nav {
 .toggle-button i {
     color: #fff;
     border-radius: 10px;
+}
+
+/*  DARK MODE */
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode #contact {
+    background: linear-gradient(160deg, #3ccde7 45%, rgb(0, 0, 0) 0%);
+}
+
+.dark-mode footer {
+    background: #292929;
 }
 
 /*  Header End */
@@ -311,7 +326,7 @@ footer p {
 }
 
 footer span {
-    color: red;
+    color: #3ccde7;
 }
 
 .media {
